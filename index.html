@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dukkaan.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+
+    <div class="header">
+
+<div class="container">
+
+    <div class="navbar">
+        <div class="logo">
+            <img src="https://i.pinimg.com/1200x/f9/c7/db/f9c7db9c81176144f7b08fd4a138d018.jpg" width="125px" alt="">
+        </div>
+<nav>
+    <ul id="MenuItems">
+        <li><a href=" ">Home</a></li>
+        <li><a href=" ">Products</a></li>
+        <li><a href=" ">About</a></li>
+        <li><a href=" ">Contact</a></li>
+        <li><a href=" ">Account</a></li>
+    </ul>
+</nav>
+<img src="https://cdn-icons-png.flaticon.com/512/263/263142.png" width="30px" height="30px" alt="">
+<img src="https://cdn.iconscout.com/icon/free/png-256/free-hamburger-menu-462145.png?f=webp" width="30px" height="30px" class="menu" onclick="menutoggle()" alt="">
+    </div>
+    <div class="row">
+        <div class="col2">
+      <h1>Buy the best <br>quality products</h1>
+      <br>
+      <p>Welcome to Dukkaan , buy your favourite devices at affordable prices and bunch of discounts</p>
+      <a href=" " class="btn">Explore Now &#8594; </a>
+        </div>
+
+        <div class="col2">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqh8aY8yGxZ5YnYjDBGqfzD6SLR7y1CWRmXA&usqp=CAU" alt="">
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- -------Featured categories-------- -->
+
+<div class="category">
+    <div class="small-container">
+        <h2>Input Devices</h2>
+        <div class="row">
+            <div class="col-3">
+                <a href="https://www.amazon.in/HP-Wired-Optical-Buttons-Adjustable/dp/B09G5ZL938"> <img src="https://upload.wikimedia.org/wikipedia/commons/2/22/3-Tasten-Maus_Microsoft.jpg"></a>
+
+                 
+            <h4>Dell Mouse</h4>
+            <div class="rating">
+             <p>⭐⭐⭐⭐</p>
+
+            </div>
+            <p>₹ 299</p>
+            </div>
+            <div class="col-3">
+                <a href="https://amzn.eu/d/bpJIJZQ"><img src="https://images.unsplash.com/photo-1574012716378-0ca6f4c18c08?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8a2V5Ym9hcmR8ZW58MHx8MHx8fDA%3D&w=1000&q=80" alt=""></a>
+                <h4>Dell Keyboard</h4>
+                <div class="rating">
+                 <p>⭐⭐⭐⭐</p>
+    
+                </div>
+                <p>₹ 569</p>
+            </div>
+            <div class="col-3">
+                <a href="https://amzn.eu/d/0ARTrIy"> <img src="https://3.imimg.com/data3/KW/FE/MY-9677984/hp-sacnner-250x250.jpg" alt=""></a>
+                <h4>HP Scanner</h4>
+                <div class="rating">
+                 <p>⭐⭐⭐</p>
+                </div>
+                <p>₹ 3999</p>
+            </div>
+        </div>
+        <h2>Output Devices</h2>
+        <div class="row">
+            <div class="col-3">
+                <a href="https://amzn.eu/d/3LGEPzZ"> <img src="https://m.media-amazon.com/images/I/61O288S1PvL._SX679_.jpg"></a>
+
+                 
+            <h4>Canon Printer</h4>
+            <div class="rating">
+             <p>⭐⭐⭐</p>
+
+            </div>
+            <p>₹ 2379</p>
+            </div>
+            <div class="col-3">
+                <a href="https://amzn.eu/d/bHiHf35"><img src="https://m.media-amazon.com/images/I/315vj6oj-FL._SX300_SY300_QL70_FMwebp_.jpg" alt=""></a>
+                <h4>Boat Headphones</h4>
+                <div class="rating">
+                 <p>⭐⭐⭐⭐</p>
+    
+                </div>
+                <p>₹ 1499</p>
+            </div>
+            <div class="col-3">
+                <a href="https://amzn.eu/d/3V4HKiE"> <img src="https://m.media-amazon.com/images/I/81xHjVQPwAL._SX679_.jpg" alt=""></a>
+                <h4>ACER Monitor</h4>
+                <div class="rating">
+                 <p>⭐⭐⭐⭐</p>
+                </div>
+                <p>₹ 6099</p>
+            </div>
+        </div>
+    </div>
+    
+</div>
+<!-- JS for toggle menu -->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+    function menutoggle() {
+        if (MenuItems.style.maxHeight === "0px") {
+            MenuItems.style.maxHeight = "200px";
+        } else {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+
+
+    
+</body>
+</html>
